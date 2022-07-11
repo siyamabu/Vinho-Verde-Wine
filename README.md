@@ -50,20 +50,44 @@ Alcohol is the most significant predictor of quality wine so interestingly, wine
 
 ## Dataset Description
 
-This dataset contains one categorical response variable (High or Poor) quality wine and 12 physicochemical predictor variables. The 12 physicochemical predictor variables are: Fixed Acidity, Volatile Acidity, Citric Acid, Residual Sugar, Chlorides, Free Sulfur Dioxide, Total Sulfur Dioxide, Density, pH, Sulphates, and Alcohol. The response variable is Quality. It was originally ranked on a scale of 1-10 with 1 through 5 being wine of poor quality and 6 through 10 being wine high quality. We changed this to 1 for high quality and 0 for poor quality. There are 1599 wine variants.
+This dataset contains one categorical response variable (High or Poor) quality wine and 12 physicochemical predictor variables. The 12 physicochemical predictor variables are: Fixed Acidity, Volatile Acidity, Citric Acid, Residual Sugar, Chlorides, Free Sulfur Dioxide, Total Sulfur Dioxide, Density, pH, Sulphates, and Alcohol. The response variable is quality. It was originally ranked on a scale of 1-10 with 1 through 5 being wine of poor quality and 6 through 10 being wine high quality. We changed this to 1 for high quality and 0 for poor quality. There are 1599 wine variants.
 
 
 ## Methods
 
-- 
+- Data Characteristics
+    * Graphical summaries of the individual variables
+    * Transformation of highly skewed variables
+    * Scatterplot amtrix
+    * Heat map of all the pairwise correlations
+- First Order Model With all Predictor Variable
+    * Jittered response vs. predicted values with the fitted logistic curve and a lowess fit
+    * Residuals vs. fitted value
+    * Variance Inflaction Factors, Cook’s distance, and High Leverage
+- Model Selection- Stepwise Regression
+    * AIC stepwise regression
+    * BIC stepwise regression
+    * Two-way interaction effects
+- Final Model
+    * Summary of the parameter estimates, standard errors, and p-values
+    * Table of the odds ratios and their confidence intervals
+- Model Diagnostics
+    * P-values for goodness-of-fit test and likelihood ratio test
+    * Deviance residuals vs. fitted values plot
+    * Influence diagnostics analysis (Cook’s distance, leverage)
+    * ROC plot
 
 ## Quick Glance at the Results
+
+Final Model. 
+
+![final model](pictures/final%20model.png)
 
 Scatter Plot of final model. 
 
 ![heatmap](pictures/scatter_plot.png)
 
-ROC Curve. 
+ROC Plot. 
 
 ![graphx](pictures/auc.png)
 
@@ -90,6 +114,8 @@ Interaction Plot of Square Root of Volative Acidity and Log Free Sulfur Dioxide.
 ## Lessons Learned and Recommendations
 
 ## Limitations and What Can Be Improved
+
+- Subjective
 
 ## Explore the Notebook
 
