@@ -122,7 +122,7 @@ Interaction Plot of Square Root of Volative Acidity and Log Free Sulfur Dioxide.
 
 ## Limitations and What Can Be Improved
 
-- Perceptions of quality are generally subjective. Individuals have different perferences thus, perceptions of quality differ. 
+- Perceptions of quality are generally subjective. Individuals have different perferences thus, opinions of quality differ. 
 - This analysis only considers physicochemical factors, other factors such as types of grapes used, how long the wine was aged for, location (considering the effects of weather) were not considered. A better model could have been produced and we would have been able to examine the impact of these aforementioned factors to the quality of Vinho Verde wine.
  
 ## Explore the Notebook
