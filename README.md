@@ -94,6 +94,8 @@ ROC Plot.
 
 ![graphx](pictures/auc.png)
 
+The final model had an AUC of 0.84 thus the model correctly predicted 84% of the data with a specificity of 0.71 and sensitivity of 0.82. The cutoff is 0.44 with a false positive rate of 0.29.
+
 Residual & Diagnostic Analysis of final model.
 
 ![graph1](pictures/residual%20plots.png) 
