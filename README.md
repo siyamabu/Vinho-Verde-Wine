@@ -46,44 +46,42 @@ Alcohol is the most significant predictor of quality wine so interestingly, wine
 
 ## Data Source
 
-- [Life Expectancy (WHO)](https://www.kaggle.com/datasets/kumarajarshi/life-expectancy-who)
+- [Vinho Verde Wine Quality](https://www.kaggle.com/uciml/red-wine-quality-cortez-et-al-2009)
 
 ## Dataset Description
 
-The dataset is related to life expectancy. Health factors for 193 countries have been collected from the same WHO data repository website and its corresponding economic data was collected from United Nation website. Among all categories of health-related factors only those critical factors were chosen which are more representative. The dataset consists of 22 Columns and 2938 rows. The predictor variables are divided into several broad categories: Immunization related factors, Mortality factors, Economical factors and Social factors.
+This dataset contains one categorical response variable (High or Poor) quality wine and 12 physicochemical predictor variables. The 12 physicochemical predictor variables are: Fixed Acidity, Volatile Acidity, Citric Acid, Residual Sugar, Chlorides, Free Sulfur Dioxide, Total Sulfur Dioxide, Density, pH, Sulphates, and Alcohol. The response variable is Quality. It was originally ranked on a scale of 1-10 with 1 through 5 being wine of poor quality and 6 through 10 being wine high quality. We changed this to 1 for high quality and 0 for poor quality. There are 1599 wine variants.
+
 
 ## Methods
 
-- Multivariate correlation
-- Linear Regression
-- Ridge Regression
-- Decision Tree
+- 
 
 ## Quick Glance at the Results
 
-Correlations between variables.
+Scatter Plot of final model. 
 
-![heatmap](pictures/life_correlation_heatmap.png)
+![heatmap](pictures/scatter_plot.png)
 
-A comparison of the best results from each model.
+ROC Curve. 
 
-![graphx](pictures/model_results.png)
+![graphx](pictures/auc.png)
 
-The Residuals vs Predicted Strength for the best linear regression model.
+Residual & Diagnostic Analysis of final model.
 
-![graph1](pictures/residuals_vs_predicted_linear_regression.png) 
+![graph1](pictures/residual%20plots.png) 
 
-The Observed Strength vs Predicted Strength for the best linear regression model.
+Jittered Response vs. Predicted Values Plot of final model. 
 
-![graph2](pictures/observed_strength_vs_predicted_strength_linear%20regression.png)
+![graph2](pictures/jittered.png)
 
-The Residuals vs Predicted Strength for the best decision tree regression model. 
+Diagnostic Plots of final model. 
 
-![graph3](pictures/residuals_vs_predicted_decision_tree_regression.png)
+![graph3](pictures/diagnostics.png)
 
-The Observed Strength vs Predicted Strength for the best decision tree regression model.
+Interaction Plot of Log Alcohol and Log Fixed Acidity
 
-![graph4](pictures/observed_strength_vs_predicted_strength_decision_tree_%20regression.png)
+![graph4](pictures/interaction1.png)
 
 5 highest feature importance scores from the best decision tree model.
 
