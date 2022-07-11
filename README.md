@@ -21,7 +21,7 @@ Alcohol is the most significant predictor of quality wine so interestingly, wine
 * R Studio :notebook:
 * GitHub :heart_eyes:
 
-**Modules used:**<br />
+**Libraries used:**<br />
 * vvd
 * mass
 * ggplot2
@@ -43,6 +43,9 @@ Alcohol is the most significant predictor of quality wine so interestingly, wine
   - [License](#license)
 
 ## Motivation 
+
+I love wine! Not only is it good for the heart, its good for sleep. There is no way to make a night/meal more memorable than opening a bottle of wine. I became interested in creating this project after dinner with one of my best mates. We were having a conversation about why the expensive bottles of wine seem to also get you just a little more tispier. He said "there's probably more alcohol in it, so because you are drunk you think its better, everthing is better when you are drunk." ....I wanted to find out!
+
 
 ## Data Source
 
