@@ -79,13 +79,13 @@ Diagnostic Plots of final model.
 
 ![graph3](pictures/diagnostics.png)
 
-Interaction Plot of Log Alcohol and Log Fixed Acidity
+Interaction Plot of Log Alcohol and Log Fixed Acidity. 
 
 ![graph4](pictures/interaction1.png)
 
-5 highest feature importance scores from the best decision tree model.
+Interaction Plot of Square Root of Volative Acidity and Log Free Sulfur Dioxide.
 
-![graphy](pictures/feature_importance.png) 
+![graphy](pictures/interaction2.png) 
 
 ## Lessons Learned and Recommendations
 
