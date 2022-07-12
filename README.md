@@ -129,7 +129,7 @@ Interaction Plot of Square Root of Volative Acidity and Log Free Sulfur Dioxide.
  
 ## Explore the Notebook
 
-To explore knitted document [here](https://github.com/siyamabu/Vinho-Verde-Wine/blob/main/vinho_verde_wine.docx) 
+To explore knitted word document [here](https://github.com/siyamabu/Vinho-Verde-Wine/blob/main/vinho_verde_wine.docx) 
 
 ## License
 
